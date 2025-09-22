@@ -1,0 +1,20 @@
+{
+  "access control": "Grants or denies individual requests to view or update a restricted resource. Access is based on the resource, the nature of the request, whether the user is authenticated, the user's authorization, relevant policies, and other data.",
+  "Active Directory (AD)": "An on-premises user account management service for Microsoft Windows domain networks.",
+  "admin": "An Okta administrator. Admins have access to the Okta Administrator Dashboard, where they configure and maintain the end-user account provisioning and deprovisioning as well as many other aspects of the overall end-user experience.",
+  "Admin Console": "A centralized interface that allows admins to manage and configure their Okta environment.",
+  "Admin Dashboard": "The first page that admins see when they sign in to Okta. It summarizes org usage and activity and notifies you of any problems or outstanding work to be completed.",
+  "Aerial account": "The management layer around multiple orgs within Okta. The Aerial account lives outside of your orgs and can manage any production or preview org linked to the Aerial account.",
+  "Aerial org": "An org that holds the authorization server for all Aerial API actions in any org in the Aerial account. Choose one org to permanently serve as the Aerial org.",
+  "agent": "A lightweight software program that runs as a service outside of Okta. Agents are typically installed behind a firewall and allow Okta to communicate between an on-premises service and the Okta cloud service.",
+  "agentless Desktop Single sign-On (ADSSO)": "When this functionality is enabled, users are automatically authenticated by Okta when they sign in to a Windows network. Users only need to sign in a single time and don't need separate credentials for each application they access through Okta.",
+  "app": "An application. For Okta purposes, apps are web-based services that provide any number of specific tasks that require user authentication.",
+  "Assertion Consumer Service (ACS) URL": "This is the endpoint where SAML responses are posted and must be provided by the SP to the identity provider. It is often referred to as the service provider (SP) sign-in URL.",
+  "authentication": "A sign-in process that verifies the identity of any entity requesting access to a website or service. Entities may include a person or an automated user agent such as an API request.",
+  "Authenticator Assurance Level (AAL)": "An industry-standard categorization for ranking the strength of the authentication process. There are three levels: AAL1 (low), AAL2 (high), and AAL3 (very high).",
+  "authorization": "Processes and services that define what resources a user is allowed to access and what functions they're allowed to perform. Authorization is part of access control.",
+  "AWS CloudFormation": "Provides a common language for describing and provisioning all of the infrastructure resources in an AWS cloud environment. CloudFormation allows admins to use a simple text file to securely model and provision all resources needed for applications across all regions and accounts.",
+  "certificate authority (CA)": "An issuer of digital certificates that confirm ownership of a public key.",
+  "Certificate Revocation List (CRL)": "An index of digital certificates that have been revoked or marked invalid before their expiration date. Digital certificates on the CRL should not be trusted.",
+  "claim": "A statement about a subject (user) contained in OAuth2 security tokens. For example, a claim can be about a name, identity, key, group, or privilege. The claims in a security token are dependent upon the type of token, the type of credential used to authenticate the user, and the application configuration."
+}
